@@ -4,7 +4,8 @@
     "dockerfile": "Dockerfile"
   },
   "mounts": [
-    "target=${containerWorkspaceFolder}/node_modules,type=volume"
+    "target=${containerWorkspaceFolder}/node_modules,type=volume",
+    "target=${containerWorkspaceFolder}/.nuxt,type=volume"
   ],
   "customizations": {
     // Configure properties specific to VS Code.
@@ -13,7 +14,17 @@
       "extensions": [
         "streetsidesoftware.code-spell-checker",
         "vue.volar"
-      ]
+      ],
+      "settings": {
+        "cSpell.words": [
+          "Nuxt"
+        ],
+        "[vue]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "Vue.volar"
+        },
+        "editor.tabSize": 2
+      }
     }
   }
 }
