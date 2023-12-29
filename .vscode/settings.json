@@ -1,5 +1,10 @@
 {
-    "cSpell.words": [
-        "Nuxt"
-    ]
+  "cSpell.words": [
+    "Nuxt"
+  ],
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "editor.tabSize": 2,
 }

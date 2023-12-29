@@ -1,7 +1,7 @@
 {
   "name": "Sample Dev Container",
   "build": {
-      "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile"
   },
   "mounts": [
     "target=${containerWorkspaceFolder}/node_modules,type=volume"
