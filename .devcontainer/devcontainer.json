@@ -23,10 +23,15 @@
           "editor.formatOnSave": true,
           "editor.defaultFormatter": "Vue.volar"
         },
+        "[typescript]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "Vue.volar"
+        },
         "editor.tabSize": 2
       }
     }
-  }
+  },
+  "postCreateCommand": "yarn"
   // 以下コマンドでコンテナにアタッチしたタイミングでinstallが走るようにできる
   // "postAttachCommand": {
   //   "clean": "rm -rf node_modules/*",
