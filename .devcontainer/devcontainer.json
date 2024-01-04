@@ -27,4 +27,9 @@
       }
     }
   }
+  // 以下コマンドでコンテナにアタッチしたタイミングでinstallが走るようにできる
+  // "postAttachCommand": {
+  //   "clean": "rm -rf node_modules/*",
+  //   "install": "yarn"
+  // }
 }
